@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist/",
+    "target": "ESNext",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "lib": ["es2017", "dom"]
+}

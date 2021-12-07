@@ -1,0 +1,58 @@
+:root {
+  --scale: 8;
+  --gap: 24px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba();
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.column.center {
+  align-items: center;
+}
+
+.picture {
+  border: 2px solid gray;
+  background-size: contain;
+}
+
+input {
+  display: none;
+}
+
+.picture.size-21x30 {
+  width: calc(21px * var(--scale));
+  height: calc(30px * var(--scale));
+}
+
+.picture.size-40x30 {
+  width: calc(40px * var(--scale));
+  height: calc(30px * var(--scale));
+}
+
+.picture.size-40x50 {
+  width: calc(40px * var(--scale));
+  height: calc(50px * var(--scale));
+}
+
+.picture.size-50x70 {
+  width: calc(50px * var(--scale));
+  height: calc(70px * var(--scale));
+}
